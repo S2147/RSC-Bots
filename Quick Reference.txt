@@ -1,0 +1,63 @@
+C:\Users\****\Desktop\ssh-key-2025-04-05.key
+
+ssh -i C:\Users\****\Desktop\ssh-key-2025-04-05.key opc@****
+
+ssh -i C:\Users\****\Desktop\ssh-key-2025-04-05.key ubuntu@****
+
+apt list --upgradable
+
+sudo apt upgrade
+
+sudo reboot
+
+neofetch
+
+df -h
+
+free -m
+
+htop
+
+ps aux
+ps
+pstree
+
+ctrl shift pg up down arrow keys
+
+pwd
+
+ls
+
+mv
+
+mv old_filename new_filename
+mv document.txt notes.txt
+
+rm filename
+
+clear
+
+exit ctrl c ctrl d quit
+
+nano
+
+vim
+
+touch
+echo
+cat
+
+cd plutonium/
+./bot
+
+nohup ./bot &
+nohup ./bot > output.log 2>&1 &
+nohup processname &
+
+jobs
+fg
+
+top
+
+nohup /home/ubuntu/plutonium/bot > output.log 2>&1 &
+
