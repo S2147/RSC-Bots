@@ -1,0 +1,25 @@
+[Unit]
+Description=Run Plutonium bot after network is up
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/home/ubuntu/plutonium/bot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/plutonium
+StandardOutput=append:/home/ubuntu/plutonium/output.log
+StandardError=append:/home/ubuntu/plutonium/output.log
+
+Restart=on-failure
+RestartSec=5
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+TimeoutStartSec=30
+TimeoutStopSec=10
+KillMode=process
+KillSignal=SIGKILL
+
+[Install]
+WantedBy=default.target

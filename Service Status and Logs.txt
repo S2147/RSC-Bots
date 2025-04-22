@@ -1,0 +1,8 @@
+systemctl status myscript.service
+
+journalctl -u myscript.service
+journalctl -u myscript.service -f
+
+ps aux | grep plutonium
+
+sudo kill -9 PID

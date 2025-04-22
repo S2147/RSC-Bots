@@ -1,0 +1,10 @@
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+sudo systemctl enable myscript.service
+
+sudo systemctl start myscript.service
+
+Reload systemd and Restart
+sudo systemctl daemon-reload
+sudo systemctl restart myscript.service
+systemctl status myscript.service

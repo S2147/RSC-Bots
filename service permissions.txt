@@ -1,0 +1,2 @@
+sudo chmod +x /home/ubuntu/myscript.sh
+sudo chown ubuntu:ubuntu /home/ubuntu/myscript.sh
