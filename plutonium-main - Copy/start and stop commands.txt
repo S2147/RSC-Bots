@@ -1,0 +1,6 @@
+Open CMD in folder directory
+
+.\bot.exe
+
+CTRL + C
+
