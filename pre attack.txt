@@ -1,0 +1,16 @@
+idle ?
+
+ORSCharacter npc = c.getNearestNpcById(...);
+if (npc != null) {
+  c.attackNpc(npc.serverIndex);
+  c.sleep(3 * GAME_TICK);
+}
+
+-----------
+
+plutonium
+
+create_packet(190)
+write_short(next_spawn.get_index())
+send_packet()
+
