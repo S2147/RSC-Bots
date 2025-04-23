@@ -7,17 +7,17 @@ Special Thank You:
 
 OpenRSC Devs
 
-APOS Devs
-idleRSC - Dvorak Keys and Devs
-Plutonium - Space
+APOS Devs  
+idleRSC - Dvorak Keys and Devs  
+Plutonium - Space  
 
-The friendly, nice, knowledgeable and helpful OpenRSC Community and botting-client-development members in particular:
-Sedi
-Space
-Seatta
-Stormy
-ken
-Xat
+The friendly, nice, knowledgeable and helpful OpenRSC Community and botting-client-development members in particular:  
+Sedi  
+Space  
+Seatta  
+Stormy  
+ken  
+Xat  
 
 Jack the Hacker - for teaching me about Oracle Cloud Compute Free Infrastructure VPS
 
