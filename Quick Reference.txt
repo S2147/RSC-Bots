@@ -8,6 +8,22 @@ apt list --upgradable
 
 sudo apt upgrade
 
+sudo apt update
+
+sudo apt update && sudo apt upgrade -y
+
+wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.profile
+source ~/.profile
+echo 'export PATH=$PATH:/usr/local/go/bin' | sudo tee -a /etc/profile
+source /etc/profile
+nano ~/.bashrc
+export PATH=$PATH:/usr/local/go/bin
+source ~/.bashrc
+go version
+
 sudo reboot
 
 neofetch
