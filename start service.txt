@@ -8,3 +8,6 @@ Reload systemd and Restart
 sudo systemctl daemon-reload
 sudo systemctl restart myscript.service
 systemctl status myscript.service
+
+sudo systemctl stop myscript.service
+sudo systemctl disable myscript.service
