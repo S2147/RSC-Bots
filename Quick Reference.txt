@@ -38,6 +38,7 @@ ps aux
 ps
 pstree
 
+shift pg up down arrow keys
 ctrl shift pg up down arrow keys
 
 pwd
